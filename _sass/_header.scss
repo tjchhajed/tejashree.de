@@ -4,21 +4,18 @@
 .site-header {
 
     min-height: 80px;
+    min-width: 100%;
     background: #FF6347;
-    // background: #0077ff;
-    // Positioning context for the mobile navigation icon
-    position: relative;
-
+    position: fixed;
 }
 
 .site-title {
-    font-size: 26px;
-/* 		margin-top: 15px;
-    line-height: 40px; */
+    font-size: 30px;
+ 		margin-top: -5px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    font-weight: 500;
+    font-weight: 400;
 		font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     &,
@@ -44,17 +41,17 @@
 
 	text-align: right;
 	float: right;
-	padding-top: 9px;
-	font-size: 85%;
+	margin-top: -4px;
+  margin-bottom: 4px;
+	font-size: 100%;
 	letter-spacing: 1px;
 	line-height: 1em;
 	font-weight: 600;
-	margin: 0;
-	padding: 0;
+	// margin: 0;
+	// padding: 0;
 	list-style-type: none;
 	text-transform: uppercase;
 		font-family: 'Open Sans', sans-serif;
-
 }
 
 .site-nav .menu > li {

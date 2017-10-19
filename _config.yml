@@ -1,21 +1,30 @@
-# Site settings
-title: Tejashree Chhajed
-email: hello@tejashree.de
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit mattis nulla eu cursus. Fusce finibus, orci sit amet tincidunt fermentum, risus ante pharetra nisi, eget tempus tellus tellus ut est.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.tejashree.de" # the base hostname & protocol for your site
-twitter_username: tjchhajed
-github_username:  tjchhajed
+url: http://www.tejashree.de
+baseurl: #
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 33ccff
+  secondary: 33ccf1
+  secondary-dark: 333
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  # - title: twitter
+  #   url: http://twitter.com/surajroland
+  # - title: facebook
+  #   url:
+  # - title: stack-overflow
+  #   url:
+  # - title: bitbucket
+  #   url: http://bitbucket.org/surajroland
+  - title: linkedin
+    url: https://www.linkedin.com/in/chhajed-tejashree-81555a87/
+  - title: skype
+    url: skype://tjchhajed?call
+  - title: github
+    url: http://github.com/tjchhajed
+
 
 # Build settings
 markdown: kramdown
-
-# Other options
-permalink: blog/:year/:month/:title
-job.title: "Java Developer"
-excerpt_separator: "<!--more-->"
-
-# SEO stuff
-# google_author: ""
-# google_site_verification: ""
-# bing_webmastertools_id: ""
+permalink: pretty

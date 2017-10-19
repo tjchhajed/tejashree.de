@@ -1,0 +1,39 @@
+<!-- Background map -->
+<div id="map"></div>
+<script type="text/javascript" src="/js/drawmap.js"></script>
+
+<!-- Contact -->
+<section id="contact" style="padding-bottom: 0; color: #fff;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 "></div>
+                <div class="col-md-4 text-center">
+                    <h2 class="section-heading" style="color: #fff;">Contact Me</h2>
+                </div>
+              <div class="col-md-4 "></div>
+            </div>
+
+             <div class="row">
+                <div class="col-md-4 "></div>
+                <div class="col-md-4 text-center" style="margin-top:20px; font-family:'Open Sans'; font-size:20px; font-weight:lighter">
+                +49 171 3241720
+              </br><a style="color: #fff;" href="mailto:hello@tejashree.de">hello@tejashree.de</a>
+            </br></br>Spaltensteiner Straße 15</br>88048 Friedrichshafen</br>Germany</br></br></br>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 "></div>
+              <div class="col-md-4 text-center" style="margin-left:12px">
+                  <ul class="list-inline social-buttons">
+                      {% for network in site.social %}
+                      <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                      </li>&nbsp;&nbsp;&nbsp;
+                      {% endfor %}
+                  </ul>
+              </div>
+              <div class="col-md-4 "></div>
+          </div>
+        </div>
+    </section>
